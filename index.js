@@ -15,6 +15,6 @@ app.use(express.json());
 app.use('/api', router)
 
 
-app.listen(PORT, ()=>{
+app.listen(port, ()=>{
     console.log(`server connected to port ${port}`)
 })
